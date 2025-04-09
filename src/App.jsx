@@ -18,8 +18,8 @@ export default function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
-        <Route path='/juegos' element={<Juegos/>} />
-        <Route path='/juegos/:idJuego' element={<DetalleDeJuego/>}/>
+        <Route path='/juegos' element={<Juegos />} />
+        <Route path='/juegos/:idJuego' element={<DetalleDeJuego />} />
       </Routes>
 
     </>
